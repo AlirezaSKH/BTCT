@@ -88,5 +88,9 @@
         "port": 5001,
         "clientport": 3000,
         "hostname": "127.0.0.1"
+    },
+    "imap_listener": {
+        "enabled": false
+        
     }
 }
