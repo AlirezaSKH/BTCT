@@ -2,39 +2,39 @@
     "pairs": {
         "poloniex": {
             "BTC_ETH": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             }
         },
         "bittrex": {
             "BTC-ETC": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             }
         },
         "kraken": {
             "XETHXXBT": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             },
             "GNOXBT": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             },
             "XXBTZEUR": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             }
         },
         "cryptopia": {
             "DOGE_BTC": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             }
         },
         "bitfinex": {
             "IOT-BTC": {
-                "strategy": "tssl",
+                "strategy": "emotionless",
                 "override": {}
             }
         }
@@ -43,7 +43,7 @@
         "emotionless": {
             "NAME": "emotionless",
             "TRADING_LIMIT": 0.01,
-			"MICROTRADES": false,
+	    "MICROTRADES": true,
             "PANIC_SELL": false,
             "DOUBLE_UP": false,
             "DOUBLE_UP_CAP": 1,
@@ -76,7 +76,7 @@
     },
     "bot": {
         "BOT_DELAY": 1,
-		"BOT_CCLEAN": 999,
+	"BOT_CCLEAN": 999,
         "interval_ticker_update": 25000,
         "period_storage_ticker": 2000,
         "timeout_buy": 60000,
